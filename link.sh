@@ -1,6 +1,7 @@
 #!/bin/bash
 
 pushd moduleA
+npm install
 npm link
 popd
 
