@@ -1,0 +1,1 @@
+Simple Working example of issue in NestJS where built-in exceptions thrown in "npm linked" modules result in 500 errors in consuming app.
