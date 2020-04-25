@@ -6,6 +6,9 @@ In `moduleB/src/app.module.ts`, you can choose to use unlinked or linked import 
 As a courtesy, `link` and `unlink` scripts are provided in project root.
 
 Two run scripts for ModuleB `npm run startLinked` and `npm run startUnlinked`.
+
+After starting ModuleB, sending a GET request to `http://localhost:3000/say/badWord` will result in a BadRequestException being thrown, which has an error code of 400.
+
 It can be observed that Exceptions thrown in the unlinked version will result in the desired Error Code. In the linked version, it will result in a 500. Example output below:
 
 ```
